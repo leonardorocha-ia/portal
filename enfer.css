@@ -1,0 +1,37 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(234, 232, 232);
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+}
+
+#titulo{
+    background-color: rgb(237, 50, 55);
+}
+.enfermagem{
+    font-weight: 900;
+    font-size: 50px;
+    text-shadow: white 2px 2px;
+    color: black;
+    text-align: left;
+    padding: 10px 24px 20px 100px;
+}
+.enfermagem:hover{
+    transform: scale(1.1);
+}
+.texto{
+    margin: 1% 8% 5% 8%;
+}
+.lista-video{
+    margin: 1% 8% 1% 9%;
+}
+.lista{
+    margin: 0% 8% 1% 9%;
+}
